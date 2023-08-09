@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+      @apply inline-block w-32 px-8 py-2 rounded-md shadow-xl bg-red-600
+      hover:bg-red-300 hover:-translate-y-2 transform transition ease-in-out 
+      tracking-wider text-white text-xs uppercase font-medium;
+  }
+
+  .btn-secondary {
+      @apply inline-block w-32 px-8 py-2 rounded-md shadow-xl bg-green-600 
+      hover:bg-green-300 hover:-translate-y-2 transform transition ease-in-out 
+      tracking-wider text-white text-xs uppercase font-medium;
+  }
+}
