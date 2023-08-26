@@ -1,6 +1,20 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
+        name: "DREAM",
+        jpName: "夢",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/8/8a/Seventeen_-_Dream.png",
+        imageAlt: "Dream",
+        songUrl: "https://youtu.be/6H8QHeC_VPs?si=LIw8cgarR5fmUPcp",
+    },
+    {
+        name: "SARA SARA",
+        jpName: "SARA SARA",
+        imageUrl: "https://illustratemagazine.com/wp-content/uploads/2023/08/69f5a02fa3b57a727acb730254413a9c.1000x1000x1-1.jpg",
+        imageAlt: "Sara Sara",
+        songUrl: "https://open.spotify.com/track/7blRMabWMREl9clNkAhvFS?si=165d898801254ec2",
+    },
+    {
         name: "Power Of Love",
         jpName: "「あいのちから」パフォーマンス映像 ",
         imageUrl: "https://www.nme.com/wp-content/uploads/2021/10/seventeen-power-of-love-concert-261021.jpg",
@@ -42,4 +56,5 @@ export default [
         imageAlt: "Call Call Call",
         songUrl: "https://youtu.be/BgR_HJ7aGDY",
     },
+    
 ];
